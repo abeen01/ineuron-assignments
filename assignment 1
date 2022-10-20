@@ -1,0 +1,100 @@
+--INEURON SQL ASSIGNMENTS
+--TASK 1
+
+create database task
+
+create table shopping_history(
+product varchar not null,
+quantity integer not null,
+unit_price integer not null);
+
+select * from shopping_history
+
+INSERT INTO shopping_history
+VALUES('MILK',3,10);
+INSERT INTO shopping_history
+VALUES('BREAD',7,3);
+INSERT INTO shopping_history
+VALUES('BREAD',5,2);
+
+SELECT PRODUCT, SUM(QUANTITY*UNIT_PRICE) AS TOTAL_PRICE FROM SHOPPING_HISTORY GROUP BY PRODUCT
+-------------------------------------------------------------------------------------------------------------------------------------
+--INEURON SQL ASSIGNMENTS 1
+--TASK 2
+create table calls ( 
+id integer not null,
+caller integer not null, 
+callee integer not null, duration integer not null, unique(id) );
+
+create table phones ( 
+name varchar(20) not null unique, 
+phone_number integer not null unique);
+
+select * from phones
+select * from calls
+
+insert into phones values ('jack',1234);
+insert into phones values ('lena',3333);
+insert into phones values ('mark',9999);
+insert into phones values ('anna',7582);
+
+insert into calls values(25,1234,7582,8);
+insert into calls values(7,9999,7582,1);
+insert into calls values(18,9999,3333,4);
+insert into calls values(2,7582,3333,3);
+insert into calls values(3,3333,1234,1);
+insert into calls values(21,3333,1234,1);
+
+select * from phones
+select * from calls
+with cte as (
+ select caller,sum(duration) as dur from calls group by 1
+ union all
+ select callee, sum(duration) from calls group by 1
+ )
+ select phones.name as name , cte.caller as number, sum(cte.dur) as duration
+ from cte
+        inner join phones on phones.phone_number = cte.caller
+        group by 1
+        having duration >=10;
+
+--------------------------------------------------------------------------------------------------
+task 3
+create table transactions(
+amount integer not null,
+date date not null);
+
+select * from transactions
+INSERT INTO transactions (Amount, Date) VALUES (1000, '2020-01-06');
+INSERT INTO transactions (Amount, Date) VALUES (-10, '2020-01-14');
+INSERT INTO transactions (Amount, Date) VALUES (-75, '2020-01-20');
+INSERT INTO transactions (Amount, Date) VALUES (-5, '2020-01-25');
+INSERT INTO transactions (Amount, Date) VALUES (-4, '2020-01-29');
+INSERT INTO transactions (Amount, Date) VALUES (2000, '2020-03-10');
+INSERT INTO transactions (Amount, Date) VALUES (-75, '2020-03-12');
+INSERT INTO transactions (Amount, Date) VALUES (-20, '2020-03-15');
+INSERT INTO transactions (Amount, Date) VALUES (40, '2020-03-15');
+INSERT INTO transactions (Amount, Date) VALUES (-50, '2020-03-17');
+INSERT INTO transactions (Amount, Date) VALUES (200, '2020-10-10');
+                                                
+INSERT INTO transactions (Amount, Date) VALUES (-200,'2020-10-10');                                              
+select sum(amount) from transactions
+
+
+ select (sum(amount)-11*5)from transactions
+ 
+ 
+select (sum(a.monthly_transaction)+ b.debit_card_fine ) as account_balance from 
+(select sum(amount) as monthly_transaction , monthname(date) as month_name from transactions group by month_name)  a ,
+(select (-5*(12-count(month_name))) as debit_card_fine from
+(select count(amount) as monthly_credit_transactions, sum(amount) as credit_card_transaction_amount ,
+monthname(date) as month_name from transactions where amount<0 group by month_name) x
+ where x.monthly_credit_transactions>=3 and x.credit_card_transaction_amount<=-100) b  ;
+ 
+ 
+ 
+
+ 
+
+ 
+ 
