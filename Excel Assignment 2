@@ -1,0 +1,140 @@
+1. What does the dollar($) sign do? 
+
+In Excel, the dollar sign is used in a formula to indicate an absolute cell reference. When a cell reference is absolute, it means that the reference will not change, even if the formula is copied or moved to another cell.
+For example, if you have a formula that refers to cell A1, and you copy that formula to cell B1, the cell reference in the formula will change to B1. However, if you use an absolute reference by adding a dollar sign before the column and row reference, like this: $A$1, the cell reference will remain A1, even if the formula is copied or moved to another cell.
+Absolute cell references are useful when you want to refer to a specific cell or range of cells in a formula, and you don't want the reference to change when the formula is copied or moved.
+Here is an example of how to use an absolute cell reference in a formula:
+=SUM($A$1:$A$5)
+This formula will add up the values in cells A1 through A5, and the cell references are absolute, so the formula will always refer to those specific cells, regardless of where the formula is located.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+
+To change the reference from relative to absolute (or mixed) in Excel, you can use the following steps:
+
+1. Select the cell or range of cells that contains the formula you want to change.
+2. Edit the formula by double-clicking on the cell or pressing F2.
+3. Use the dollar sign ($) to specify an absolute reference. To make a reference absolute, you need to put a dollar sign before the column letter and the row number, like this: $A$1. To make a reference mixed, you need to put a dollar sign before either the column letter or the row number, but not both. For example, to make the column absolute and the row relative, you would use a reference like this: $A1. To make the column relative and the row absolute, you would use a reference like this: A$1.
+4. Press Enter to accept the changes to the formula.
+
+For example, if you want to change the reference A1 to an absolute reference, you would edit the formula and add a dollar sign before the column letter and the row number, like this:
+
+=SUM($A$1)
+
+This will make the reference to cell A1 absolute, so that it will not change if the formula is copied or moved to another cell.
+
+You can also use the F4 key to quickly toggle between different reference types (relative, absolute, and mixed) while editing a formula. Simply select the cell reference you want to change, and press F4 to cycle through the different options. This can be a faster way to change reference types, especially if you are working with a large or complex formula.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. Explain the order of operations in excel?
+
+
+In Excel, the order of operations determines the order in which calculations are performed in a formula. It is important to understand the order of operations in Excel because it can affect the results of your calculations.
+
+The order of operations in Excel follows the standard mathematical order of operations:
+
+1. Parentheses: Calculations inside parentheses are always done first.
+2. Exponents: Exponents (such as 2^3) are calculated next.
+3. Multiplication and division: These operations are performed in the order they appear from left to right.
+4. Addition and subtraction: These operations are also performed in the order they appear from left to right.
+
+Here is an example of a formula that demonstrates the order of operations in Excel:
+
+=2+3*4
+
+In this formula, the multiplication operation (3*4) is done first, because it has a higher precedence than the addition operation. The result of the multiplication (12) is then added to 2, resulting in a final answer of 14.
+
+You can use parentheses to override the order of operations and specify the order in which calculations should be performed. For example, the formula:
+
+=(2+3)*4
+
+will give a different result than the formula above, because the parentheses specify that the addition operation (2+3) should be done first, before the multiplication.
+
+It's important to carefully consider the order of operations when working with formulas in Excel to ensure that you get the correct results.
+
+---------------------------------------------------------------------------
+
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+
+There are many useful functions in Excel, and the top 5 functions may vary depending on the specific needs of a person or organization. However, here are some of the functions that are commonly considered among the most useful in Excel:
+
+1. SUM: This function adds up the values in a range of cells. Syntax: SUM(range)
+
+2. IF: This function allows you to perform different actions based on whether a condition is true or false. Syntax: IF(condition, value if true, value if false)
+
+3. VLOOKUP: This function searches for a value in a table or range and returns a corresponding value from a different column in the same row. Syntax: VLOOKUP(value, table, column, [range_lookup])
+
+4. COUNT: This function counts the number of cells that contain numbers in a range. Syntax: COUNT(range)
+
+5. AVERAGE: This function calculates the average of a range of cells. Syntax: AVERAGE(range)
+
+Here is an example of how to use the SUM function in a formula:
+
+=SUM(A1:A5)
+
+This formula will add up the values in cells A1 through A5.
+
+And here is an example of how to use the IF function in a formula:
+
+=IF(A1>B1, "A is greater", "B is greater")
+
+This formula will compare the values in cells A1 and B1, and if the value in cell A1 is greater, it will return the text "A is greater". If the value in cell B1 is greater, it will return the text "B is greater".
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. When would you use the subtotal function? 
+
+The SUBTOTAL function in Excel can be used to perform calculations on a filtered list or table. It allows you to calculate values such as the sum, average, count, maximum, or minimum of a selected range, while ignoring hidden rows or cells.
+
+Here is the syntax for the SUBTOTAL function:
+
+=SUBTOTAL(function_num, range)
+
+The "function_num" argument specifies the type of calculation to be performed, and can be any of the following values:
+
+1-11: A function that calculates a subtotal
+
+101-111: A function that ignores hidden rows and calculates a subtotal
+
+For example, to calculate the sum of a range of cells, ignoring any hidden rows, you could use the following formula:
+
+=SUBTOTAL(9, A1:A10)
+
+This formula will sum the values in cells A1 through A10, ignoring any rows that are hidden.
+
+You might use the SUBTOTAL function in Excel when you want to perform a calculation on a list or table that has been filtered to show only certain rows. The SUBTOTAL function allows you to perform the calculation on the visible rows only, ignoring any hidden rows. This can be useful when you want to get a total or average for a subset of data without having to manually exclude the hidden rows.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+6. What is the syntax of the vlookup function? Explain the terms in it?
+
+The VLOOKUP function in Excel is used to search for a specific value in a table or range and return a corresponding value from a different column in the same row.
+
+Here is the syntax for the VLOOKUP function:
+
+=VLOOKUP(lookup_value, table, col_index_num, [range_lookup])
+
+The "lookup_value" argument is the value you want to search for in the table or range.
+
+The "table" argument is the range of cells that contains the data you want to search through. It should include the column that contains the lookup value as well as the column(s) whose value(s) you want to return.
+
+The "col_index_num" argument is the column number in the table from which the value should be returned. For example, if you want to return the value in the second column of the table, you would use a col_index_num of 2.
+
+The "range_lookup" argument is optional, and it specifies whether the function should perform an exact match or a close match. If you set range_lookup to TRUE or omit it, the function will return the closest match to the lookup value. If you set range_lookup to FALSE, the function will only return a value if an exact match is found.
+
+Here is an example of how to use the VLOOKUP function in a formula:
+
+=VLOOKUP("apple", A1:B5, 2, TRUE)
+
+In this example, the function will search the range A1:B5 for the value "apple" in the first column. If it finds a match, it will return the corresponding value from the second column. The fourth argument (TRUE) specifies that the function should perform a close match, so if it doesn't find an exact match, it will return the closest match.
+
+In this example, if the value "apple" is found in cell A3, the function will return the value in cell B3. If the value "apple" is not found, the function will return the closest match (for example, the value "apricot" if it is the closest match).
+
+
+
+
+
+
+
+
+
+
