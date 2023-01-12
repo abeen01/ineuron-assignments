@@ -1,0 +1,145 @@
+1. What do you mean by BI? Explain.
+
+BI stands for Business Intelligence. Business intelligence (BI) refers to the technologies, applications and practices for the collection, integration, analysis, and presentation of business information. The goal of BI is to support better business decision-making by enabling business users to access and analyze corporate data to make more informed business decisions.
+
+Business Intelligence includes various tools, technologies, and methodologies that enable organizations to gain insights from their data. Some examples of BI tools include data visualization tools, dashboards, reporting tools, data warehousing, and data mining. These tools are used to collect, store, access, and analyze business data, as well as to create reports, summaries, and visualizations that help users understand the data.
+
+Business Intelligence also includes the process of identifying, gathering and analyzing data in order to provide insights into business performance. This process typically involves the collection of data from various internal and external sources, the cleansing and integration of that data, and the application of analytical and statistical techniques to uncover insights and trends.
+
+Business Intelligence can help organizations to improve their performance by providing insights into customer behavior, operational efficiency, and financial performance. Some of the benefits of Business Intelligence includes:
+
+-Improved decision making
+
+-Increased operational efficiency
+
+-Improved customer service
+
+-Better strategic planning
+
+-Increased profitability
+
+-Improved risk management
+
+Overall, Business Intelligence is an essential tool for organizations looking to understand and improve their performance by gaining insights from their data
+--------------------------------------------------------------------------------------------------------------------------
+
+1. How Power-BI helps in BI, and how does it help Analysts? Explain.
+
+Power BI is a business intelligence tool developed by Microsoft that allows users to connect to various data sources, transform and cleanse the data, create reports and dashboards, and share them with others. It is a powerful tool that helps organizations to gain insights from their data and make better business decisions.
+
+Power BI helps in BI by providing a suite of powerful data visualization and reporting tools that allow analysts to connect to various data sources, transform and cleanse the data, and create interactive and visually appealing reports and dashboards. It enables analysts to explore and analyze data with a wide range of built-in visualizations, such as charts, tables, and maps, and easily create reports and dashboards that can be shared with others.
+
+Power BI also provides an extensive set of data modeling and data discovery features that allow analysts to perform complex data analysis and modeling, including data blending, data transformation, and data modeling, with a user-friendly interface.
+
+It also has a feature called Power Query that enables analysts to connect to a wide variety of data sources, extract and transform data, and create custom data models. This feature is especially useful for analysts who work with large and complex datasets, as it allows them to easily extract and cleanse the data, and create custom data models that can be used for analysis and reporting.
+
+Power BI also has a feature called Power Pivot which is an advanced data modeling feature that allows analysts to create and manipulate pivot tables, create calculated columns and measures, and create advanced data relationships. This feature is especially useful for analysts who need to perform complex data analysis and modeling.
+
+In addition, Power BI provides a number of collaboration and sharing features that allow analysts to share their reports and dashboards with others in the organization, regardless of their technical expertise. This makes it easy for analysts to collaborate with others and share insights, making it a great tool for organizations with large and distributed teams.
+
+Overall, Power BI is a powerful tool that helps analysts to connect to various data sources, transform and cleanse the data, create interactive and visually appealing reports and dashboards, and share them with others. It allows analysts to perform complex data analysis and modeling, and collaborate with others to gain insights from their data and make better business decisions.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+2. Explain Descriptive analytics?Descriptive analytics is a type of business intelligence that is used to summarize and describe data. The main goal of descriptive analytics is to provide a summary of historical data, and to understand what happened in the past.
+
+It involves collecting and analyzing data from various sources to identify patterns, trends, and relationships in the data. This can be done using various statistical techniques such as frequency distributions, mean, median, mode, standard deviation, etc. Descriptive analytics also includes data visualization techniques such as bar charts, line graphs, scatter plots, etc. to present the data in an easy-to-understand format.
+
+Descriptive analytics is commonly used in various applications such as:
+
+Financial analysis: to understand past financial performance, identify trends, and make predictions about future performance.
+
+Marketing analysis: to understand customer behavior, identify customer segments, and make decisions about targeting and positioning.
+
+Sales analysis: to understand sales trends, identify best-selling products, and make decisions about product mix and pricing.
+
+Operations analysis: to understand production and supply chain performance, identify bottlenecks, and make decisions about capacity and inventory management.
+
+Fraud detection: to identify patterns of fraudulent behavior and make decisions about risk management.
+
+Human resources analysis: to understand employee behavior, identify patterns in employee turnover, and make decisions about recruitment, retention, and employee development.
+
+Descriptive analytics provides a summary of historical data, which can help organizations to understand the past and make better decisions about the future. It is a valuable tool for organizations looking to gain insights from their data and make data-driven decisions.
+
+
+
+--------------------
+
+Descriptive analytics is a type of business intelligence that is used to summarize and describe data. The main goal of descriptive analytics is to provide a summary of historical data, and to understand what happened in the past.
+
+It involves collecting and analyzing data from various sources to identify patterns, trends, and relationships in the data. This can be done using various statistical techniques such as frequency distributions, mean, median, mode, standard deviation, etc. Descriptive analytics also includes data visualization techniques such as bar charts, line graphs, scatter plots, etc. to present the data in an easy-to-understand format.
+
+Descriptive analytics is commonly used in various applications such as:
+
+Financial analysis: to understand past financial performance, identify trends, and make predictions about future performance.
+
+Marketing analysis: to understand customer behavior, identify customer segments, and make decisions about targeting and positioning.
+
+Sales analysis: to understand sales trends, identify best-selling products, and make decisions about product mix and pricing.
+
+Operations analysis: to understand production and supply chain performance, identify bottlenecks, and make decisions about capacity and inventory management.
+
+Fraud detection: to identify patterns of fraudulent behavior and make decisions about risk management.
+
+Human resources analysis: to understand employee behavior, identify patterns in employee turnover, and make decisions about recruitment, retention, and employee development.
+
+Descriptive analytics provides a summary of historical data, which can help organizations to understand the past and make better decisions about the future. It is a valuable tool for organizations looking to gain insights from their data and make data-driven decisions.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+3. Explain Predictive analytics?
+
+Predictive analytics is a type of business intelligence that uses data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data. The main goal of predictive analytics is to make predictions about future events, and to identify patterns and trends in data that can be used to make better decisions.
+
+Predictive analytics involves collecting and analyzing data from various sources, building models to identify patterns and trends in the data, and making predictions about future events based on those models. This can be done using various statistical techniques such as linear and logistic regression, decision trees, neural networks, and machine learning algorithms.
+
+Predictive analytics can be used in various applications such as:
+
+Financial analysis: to make predictions about future financial performance, identify risk, and make decisions about investment and portfolio management.
+
+Marketing analysis: to predict customer behavior, identify customer segments, and make decisions about targeting and positioning.
+
+Sales analysis: to predict future sales trends, identify future best-selling products, and make decisions about product mix and pricing.
+
+Fraud detection: to predict fraudulent behavior and make decisions about risk management.
+
+Human resources analysis: to predict employee behavior, identify patterns in employee turnover, and make decisions about recruitment, retention, and employee development.
+
+Operations analysis: to predict production and supply chain performance, identify potential bottlenecks and make decisions about capacity and inventory management.
+
+Predictive analytics uses data, statistical algorithms, and machine learning techniques to make predictions about future events and identify patterns and trends in data. It is a valuable tool for organizations looking to make data-driven decisions and gain a competitive advantage by predicting future outcomes.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4. Explain perspective analytics?
+
+Prescriptive analytics is a type of advanced business intelligence that uses data, statistical algorithms, and mathematical optimization techniques to provide recommended actions and suggest decision options for a given problem or scenario. The main goal of prescriptive analytics is to identify the best course of action, to optimize the performance and to automate decision-making process.
+
+Prescriptive analytics involves collecting and analyzing data from various sources, building models to identify patterns and trends in the data, and recommending actions based on those models. This can be done using various techniques such as mathematical optimization, decision analysis, simulation, and machine learning.
+
+It goes beyond descriptive and predictive analytics, which only summarize what has happened in the past and predict what might happen in the future, prescriptive analytics uses advanced algorithms and mathematical models to identify the best course of action based on the data and the desired outcome.
+
+Prescriptive analytics can be used in various applications such as:
+
+Inventory management: to identify the best inventory levels, determine optimal ordering and replenishment policies, and make decisions about stockouts and overstocking.
+
+Supply Chain management: to identify the best transportation routes, determine optimal production schedules and capacity planning, and make decisions about inventory and logistics.
+
+Financial analysis: to identify the best investment opportunities, determine optimal portfolio diversification, and make decisions.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+5 Write five real-life questions that PowerBi can solve.
+
+
+-How is our company's revenue trending over time and what factors are impacting it?
+
+-What are our top-selling products and how do they vary by region, season or customer demographics?
+
+-How are our customer satisfaction levels trending and what are the drivers of customer satisfaction?
+
+-What are the main causes of delays and bottlenecks in our production process and how can we improve efficiency?
+
+-How does our inventory turnover rate compare to industry standards and what can we do to improve it?
+
+All of the above-mentioned questions can be answered using Power BI by connecting to the relevant data sources, performing data cleaning and transformation, creating interactive visualizations and reports, and sharing the insights with others in the organization. Power BI allows to connect to a variety of data sources, including Excel, SQL Server, Azure, and many other databases and files, and has a wide range of built-in visualizations and reporting capabilities that can be used to analyze and present data in a meaningful way. Additionally, Power BI has advanced data modeling and data discovery features that allow users to perform complex data analysis and modeling, making it a great tool for solving real-life business questions.
+
+
+
