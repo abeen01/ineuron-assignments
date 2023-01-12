@@ -1,0 +1,112 @@
+1 Explain the advantages of Natural Queries in PowerBi with an example?
+
+Natural Queries in Power BI allows users to use natural language to query data in a dataset, making it easier for non-technical users to access and analyze data.
+
+For example, a user could type in a query such as "show me sales by region" and Power BI would automatically generate a chart or table displaying the requested information. This allows for more efficient and user-friendly data exploration, as users do not need to have a deep understanding of the underlying data structure or knowledge of specific query languages.
+
+
+
+--------------------------------------------------------------------------
+2 Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+
+In the Power BI service architecture, a Web Front End (WFE) cluster is a group of servers that handle incoming web requests and serve as the interface between users and the Power BI service.
+
+The WFE cluster is responsible for handling user authentication and authorization, and for processing and routing requests to the appropriate back-end service. The WFE cluster also serves as the entry point for incoming web traffic and manages the load balancing of requests across multiple servers.
+
+The WFE cluster is the first point of contact for users when they access the Power BI service through a web browser or mobile device. The WFE cluster also communicates with other back-end services, such as the data gateway and data management service, to retrieve and process data for visualizations and reports.
+
+Overall, the WFE cluster plays a crucial role in ensuring a seamless and secure user experience, as well as providing the performance and scalability required to handle a high volume of requests.
+
+
+
+----------------------------------------------------------------------------
+3 Explain Back End cluster from Power BI Service Architecture?
+
+In the Power BI service architecture, the Back End cluster is a group of servers that handle the processing and management of data, as well as the generation of visualizations and reports. The Back End cluster communicates with the Web Front End (WFE) cluster to retrieve and process data requested by users and to generate the visualizations and reports that are displayed in the Power BI service.
+
+The Back End cluster is responsible for several functions such as:
+
+Data Management: The Back End cluster retrieves and processes data from various data sources, including the data gateway, and stores it in a centralized data repository.
+
+Query Processing: The Back End cluster processes user queries and generates the visualizations and reports requested by users.
+
+Data Refresh: The Back End cluster also periodically updates and refreshes the data in the centralized data repository.
+
+Security and Access Control: The Back End cluster enforces security and access controls on the data, ensuring that only authorized users can access the data.
+
+Scalability and Performance: The Back End cluster is designed to handle a large volume of requests and to scale horizontally as the number of users and requests increases.
+
+In summary, the Back End cluster plays a crucial role in the power bi service architecture by handling the management of data and processing of requests, and by providing the performance, scalability, and security required to ensure a seamless user experience.
+
+
+
+----------------------------------------------------------------------------
+
+4. What ASP.NET component does in Power BI Service Architecture?
+
+ASP.NET is a web application framework developed by Microsoft that is used in the Power BI service architecture to build the web front-end of the service. The Web Front End (WFE) cluster in Power BI service is built using ASP.NET.
+
+ASP.NET allows the development of web applications using various programming languages such as C# or VB.NET, and provides a rich set of libraries and tools for building web applications.
+
+In the Power BI service architecture, the WFE cluster uses ASP.NET to handle incoming web requests, handle user authentication and authorization, and process and route requests to the appropriate back-end service.
+
+ASP.NET also allows for the development of a responsive and user-friendly interface for the Power BI service, by providing various libraries and tools for building web pages and forms, handling user input and displaying data in tables and charts.
+
+In summary, ASP.NET plays a crucial role in Power BI service architecture by allowing the development of web front-end and handling user interactions, while communicating with the back-end cluster and retrieving and processing data for visualizations and reports.
+
+
+
+
+
+-----------------------------------------------------------------------
+5. Compare Microsoft Excel and PowerBi Desktop on the following features:
+Data import
+Data transformation
+Modeling
+Reporting
+Server Deployment
+Convert Models
+Cost
+
+Answer:
+
+Data Import: Both Microsoft Excel and Power BI Desktop can import data from a wide variety of sources, including Excel workbooks, databases, and web services. Power BI Desktop, however, has more advanced data import and connection options, such as the ability to connect to more data sources, and the ability to schedule data refreshes.
+
+Data Transformation: Both Excel and Power BI Desktop have data transformation capabilities, such as the ability to filter, aggregate, and pivot data. Power BI Desktop, however, has more advanced data transformation features, such as the ability to create calculated columns and tables, and the ability to use the Power Query editor for more complex data transformation tasks.
+
+Modeling: Both Excel and Power BI Desktop have modeling capabilities, such as the ability to create relationships between tables and create calculated columns. Power BI Desktop, however, has more advanced modeling features, such as the ability to create hierarchies and calculated tables, and the ability to use the Power Pivot engine for more complex data modeling tasks.
+
+Reporting: Both Excel and Power BI Desktop have reporting capabilities, such as the ability to create charts and tables. Power BI Desktop, however, has more advanced reporting features, such as the ability to create interactive reports, and the ability to use the Power BI visualizations library for more advanced visualizations.
+
+Server Deployment: Power BI Desktop allows users to publish reports to the Power BI service, where they can be shared and accessed by others. Excel, on the other hand, is a desktop application, and does not have built-in server deployment capabilities.
+
+Convert Models: Power BI Desktop allows to save the report in a pbix format and it can be shared with other people, where as Excel does not have the capability to convert the report to share with others.
+
+Cost: Power BI Desktop is included with a Power BI Pro or Power BI Premium subscription, which starts at $9.99 per user per month. Excel is a part of Microsoft Office, which is available through a one-time purchase or as part of an Office 365 subscription, which starts at $6.99 per user per month.
+
+In summary, Power BI Desktop has more advanced features for data import, data transformation, modeling, and reporting, and also has server deployment capabilities, where as Excel is a desktop application and it does not have server deployment capabilities. The cost of Power BI Desktop is a bit higher than Excel.
+
+
+------------------------------------------------------------------------------
+6 List 20 data sources supported by Power Bi desktop.
+
+Excel files
+CSV files
+Text files
+SharePoint lists
+SQL Server
+Analysis Services
+Oracle
+IBM DB2
+MySQL
+PostgreSQL
+Sybase
+Teradata
+SAP HANA
+Salesforce
+Dynamics CRM
+Google Analytics
+Azure SQL Database
+Azure Data Lake Storage Gen1
+Azure Data Lake Storage Gen2
+Azure Blob Storage
