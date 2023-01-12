@@ -1,0 +1,89 @@
+Advance Excel Assignment 3
+
+1. How and when to use the AutoSum command in excel?
+
+The AutoSum command in Excel is a quick and easy way to sum a range of cells in a worksheet. To use the AutoSum command, you can follow these steps:
+
+Select the cell where you want the sum to appear. This is typically the cell immediately below or to the right of the range of cells that you want to sum.
+
+Click the "Formulas" tab on the ribbon, and then click the "AutoSum" button in the "Function Library" group.
+
+Excel will automatically select the range of cells that it thinks you want to sum. If the selected range is correct, simply press enter or click the checkmark to complete the command. If the range is incorrect, you can use the mouse to select the correct range of cells or use the arrow keys to adjust the range.
+
+Alternatively, you can use the keyboard shortcut "Alt =" to quickly activate the AutoSum command.
+
+AutoSum can also be used to find the average, count and maximum and minimum values, by selecting the appropriate function from the dropdown list after clicking the AutoSum button.
+
+AutoSum is useful when you want to quickly calculate the total of a range of numbers in a column or row and the numbers are consecutive. It is especially useful when you have large data and you want to get the summary of the data.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+2. What is the shortcut key to perform AutoSum?
+
+The shortcut key to perform AutoSum in Excel is "Alt =".
+
+To use the shortcut key, you can:
+
+Select the cell where you want the sum to appear.
+Press "Alt" and "=" keys on your keyboard at the same time.
+Excel will automatically select the range of cells that it thinks you want to sum. If the selected range is correct, simply press enter or click the checkmark to complete the command. If the range is incorrect, you can use the mouse to select the correct range of cells or use the arrow keys to adjust the range.
+This is a quick way to perform AutoSum without having to go through the ribbon.
+
+Please note that, the shortcut key "Alt =" is only applicable for AutoSum, for other function like average, count and maximum and minimum you have to use the AutoSum button and select the appropriate function from the dropdown list.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. How do you get rid of Formula that omits adjacent cells?
+There are a few ways to get rid of a formula that omits adjacent cells in Excel:
+
+Edit the formula: You can edit the formula to include the omitted cells. First, select the cell with the formula, then click on the formula bar at the top of the screen. You can then edit the formula to include the omitted cells.
+
+Drag the formula to the correct cells: You can drag the formula to the correct cells by selecting the cell with the formula, then placing the cursor on the bottom right corner of the cell. The cursor will change to a plus sign, at this point you can drag the formula to the adjacent cells you want to include.
+
+Use the fill handle: You can use the fill handle to copy the formula to adjacent cells. Select the cell with the formula, then click and hold the fill handle (a small square at the bottom right corner of the selected cell) and drag it over the adjacent cells you want to include in the formula.
+
+Use the fill down command: You can use the fill down command to copy the formula to adjacent cells. Select the cell with the formula and all the adjacent cells you want to include in the formula, then right-click and select "Fill" and then "Down" or "Right" (depending on the direction of the cells you want to include)
+
+Use the Ctrl+D shortcut: You can use the Ctrl+D keyboard shortcut to copy the formula to the adjacent cells.
+
+By using any of the above methods, you can include the omitted cells in the formula and get the desired result.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+4. How do you select non-adjacent cells in Excel 2016?
+
+In Excel 2016, there are a few ways to select non-adjacent cells:
+
+Using the Ctrl key: You can use the Ctrl key to select non-adjacent cells. Simply click on the first cell that you want to select, then press and hold the Ctrl key while clicking on the additional cells that you want to select.
+
+Using the Shift key: You can use the Shift key to select a range of cells. Simply click on the first cell that you want to select, then press and hold the Shift key while clicking on the last cell of the range you want to select.
+
+Using the mouse: you can use your mouse to select non-adjacent cells by holding down the left mouse button, drag the cursor over the cells you want to select, release the mouse button and then hold down the Ctrl key and click on other cells you want to select.
+
+Using the keyboard: you can use the keyboard to select non-adjacent cells. Hold down the Ctrl key and use the arrow keys to move the cursor to the cells you want to select. Press the Spacebar to select a cell.
+
+Using the Name box: you can use the Name box to select non-adjacent cells by entering the cell references separated by a comma or a space.
+
+By using any of the above methods, you can select non-adjacent cells in Excel 2016 and perform different functions like formatting, applying formulas, adding data etc.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+5. What happens if you choose a column, hold down the Alt key and press the letters
+ocw in quick succession?
+
+
+If you choose a column in Excel, hold down the Alt key and press the letters "ocw" in quick succession, it will open the Column Width dialog box.
+
+The Column Width dialog box allows you to change the width of the selected column(s) in Excel. You can enter a specific width in the "Column width" field or use the up and down arrows to adjust the width. Once you have set the desired width, you can click OK to apply the changes.
+
+Please note that, this shortcut is only applicable when you have a column selected and it is not a standard Excel shortcut, it is a shortcut created by an individual or an organization to perform this action quickly.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+6. If you right-click on a row reference number and click on Insert, where will the row
+be added?
+
+If you right-click on a row reference number (the number on the left side of the worksheet that corresponds to a specific row) in Excel and click on "Insert", a new row will be added above the selected row.
+
+For example, if you right-click on row reference number 5 and click on "Insert", a new row will be added above row 5 and all the rows below it will move down one row. The new row will be empty, you can add data or formulas to it.
+
+Please note that, if you have multiple rows selected and you right-click on one of the rows reference number and click on "Insert", that many number of rows will be inserted above the selected rows and all the rows below it will move down
