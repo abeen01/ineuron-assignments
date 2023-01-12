@@ -41,7 +41,63 @@ fibonacci(num)
 ---------------------------------------------------------------
 
 4. Write a Python Program to Check Armstrong Number?
+
+def is_armstrong(n):
+    num = n
+    sum = 0
+    length = len(str(num))
+    while num > 0:
+        digit = num % 10
+        sum += digit ** length
+        num = num // 10
+    if n == sum:
+        return True
+    else:
+        return False
+
+num = int(input("Enter a number: "))
+if is_armstrong(num):
+    print(num, "is an Armstrong number")
+else:
+    print(num, "is not an Armstrong number")
  
  
+ --------------------------------------------------------
+ 5. Write a Python Program to Find Armstrong Number in an Interval?
+ 
+ def is_armstrong(n):
+    num = n
+    sum = 0
+    length = len(str(num))
+    while num > 0:
+        digit = num % 10
+        sum += digit ** length
+        num = num // 10
+    if n == sum:
+        return True
+    else:
+        return False
+
+start = int(input("Enter the start of the interval: "))
+end = int(input("Enter the end of the interval: "))
+
+print("Armstrong numbers in the given interval are:")
+for num in range(start, end + 1):
+    if is_armstrong(num):
+        print(num)
+ 
+ 
+ 
+ ---------------------------------------------------------------
+ 6. Write a Python Program to Find the Sum of Natural Numbers?
+ 
+ def sum_of_natural_numbers(n):
+    sum = 0
+    for i in range(1, n+1):
+        sum = sum + i
+    return sum
+
+num = int(input("Enter a number: "))
+print("The sum of natural numbers up to", num, "is", sum_of_natural_numbers(num))
  
 
