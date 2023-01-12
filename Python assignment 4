@@ -1,0 +1,47 @@
+1. Write a Python Program to Find the Factorial of a Number?
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+num = int(input("Enter a number: "))
+print("The factorial of", num, "is", factorial(num))
+
+-------------------------------------------------------------
+ 2. Write a Python Program to Display the multiplication Table?
+ 
+a = int(input("enter a multiplier "))
+b = int(input("enter the limit for the multiplication table "))
+for i in range(0,b+1):
+    print(i," x ",a," = ",i*a)
+    
+-----------------------------------------------------------------
+3. Write a Python Program to Print the Fibonacci sequence?
+
+
+def fibonacci(n):
+    a = 0
+    b = 1
+    if n == 1:
+        print(a)
+    elif n == 2:
+        print(a, b)
+    else:
+        print(a, b, end = " ")
+        for i in range(2, n):
+            c = a + b
+            a = b
+            b = c
+            print(b, end = " ")
+
+num = int(input("Enter the number of terms: "))
+fibonacci(num)
+---------------------------------------------------------------
+
+4. Write a Python Program to Check Armstrong Number?
+ 
+ 
+ 
+
