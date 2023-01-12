@@ -1,0 +1,89 @@
+1. List and explain different PowerBi products?
+
+Power BI Desktop: A Windows desktop application used to create and publish interactive visualizations, reports, and dashboards. It allows users to connect to various data sources, transform and model the data, and create visualizations and reports that can be shared with others.
+
+Power BI Service: A cloud-based service that allows users to access and share their Power BI reports and dashboards. The service allows users to collaborate on reports and dashboards, share them with others, and schedule data refreshes.
+
+Power BI Mobile: A set of mobile apps for iOS and Android that allow users to access and interact with their Power BI reports and dashboards on the go.
+
+Power BI Report Server: An on-premises report server that allows users to create, manage, and deliver Power BI reports within their own organization. It allows users to keep sensitive data on-premises and maintain control over their own data and infrastructure.
+
+Power BI Premium: An add-on to the Power BI Service that allows users to share their reports and dashboards with a larger audience and allows more users to access and interact with the reports and dashboards. It also provides additional features such as advanced data governance, larger data volumes, and more frequent data refreshes.
+
+Power BI Embedded: A set of APIs and SDKs that allows developers to embed Power BI reports and dashboards into other applications and websites. It allows developers to create custom applications that include Power BI visualizations and reports.
+
+In summary, Power BI products cover a wide range of needs, from creating and publishing visualizations and reports, to sharing and collaborating on them, to accessing them from mobile devices and embedding them in other applications. Power BI Premium is an add-on that provides additional features, while Power BI Report Server is a on-premises version of the service. Power BI Embedded allows to embed the visualizations and reports in other applications and websites.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. What limitations of Excel, Microsoft solved by PowerBi?
+
+Power BI is a data visualization and business intelligence tool developed by Microsoft that is designed to overcome some of the limitations of Excel, such as limited data visualization capabilities and difficulty in sharing and collaborating on data analysis. Power BI allows users to easily connect to a variety of data sources, create interactive and visually appealing dashboards, and share those dashboards with others. Additionally, Power BI has advanced data modeling and analysis capabilities, such as support for DAX (Data Analysis Expressions) and the ability to create calculated columns and measures. It also provides robust data visualization options, such as charts, maps, and tables, and the ability to create interactive reports.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+3 Explain PowerQuery?
+
+Power Query is a data connection and transformation tool that is built into Microsoft Excel and Power BI. It allows users to connect to a wide variety of data sources, including databases, spreadsheets, and web services, and then perform a variety of data transformations to clean, reshape, and combine data.
+
+Power Query uses a visual, user-friendly interface that enables users to easily filter, sort, and group data, as well as perform calculations and create new columns. It also supports more advanced data transformations such as pivot, unpivot, and merge operations.
+
+One of the key features of Power Query is its support for 'query folding' which allows it to push as much of the data processing as possible back to the data source. This is particularly useful when working with large data sets or when connecting to a data source over a slow network connection.
+
+Power Query also allows users to save and share their data transformations, enabling teams to collaborate and build on each other's work. The queries can be saved as part of a workbook in Excel or as a standalone connection in the Power BI Desktop.
+
+Overall, Power Query is a powerful tool that makes it easy to connect to and work with data from a variety of sources, and to perform complex data transformations without the need for manual coding.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+4 Explain PowerMap?
+
+Power Map is a 3D data visualization tool that is built into Microsoft Excel and is part of the Power BI suite of tools. It allows users to create interactive maps and visualizations of their data, and to explore that data in a geographic context.
+
+Power Map allows users to plot data points on a map, and to customize the appearance of the map by adjusting the colors, labels, and other visual elements. It also supports a variety of map styles, including street, satellite, and terrain maps.
+
+Users can also create animations in Power Map that show how their data changes over time. This can be particularly useful for visualizing trends and patterns in data that are geographically based, such as population growth or weather patterns.
+
+Power Map also integrates with other Power BI tools, such as Power Query, allowing users to combine data from multiple sources and to perform complex data transformations before visualizing it in the map.
+
+One of the key features of Power Map is its ability to create tours, which are a series of map views with a corresponding voiceover or text, that can be used to tell a story with the data.
+
+Overall, Power Map is a powerful data visualization tool that allows users to easily explore and understand their data in a geographic context and create interactive and visually appealing maps.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+5. How powerBi eliminated the need to host SharePoint Server on premises?
+
+Power BI eliminates the need to host SharePoint Server on-premises by providing a cloud-based platform for creating, publishing, and sharing business intelligence and data visualization content.
+
+In the past, to share and collaborate on data analysis and visualization in Excel and Power BI, organizations had to host a SharePoint Server on-premises. This would require significant IT resources and maintenance to keep the server up-to-date and secure.
+
+With Power BI, all content is hosted on Microsoft's cloud-based platform, Azure. This means that users can access their data and visualizations from anywhere with an internet connection, and can collaborate on that data and those visualizations with their team members in real-time.
+
+Additionally, Power BI provides a variety of sharing and collaboration features, such as the ability to share dashboards and reports with others, as well as the ability to set permissions and access controls, which makes it easy for teams to work together on data analysis and visualization projects.
+
+In summary, Power BI eliminates the need to host SharePoint Server on-premises by providing a cloud-based platform for creating, publishing, and sharing business intelligence and data visualization content, which enables users to access and collaborate on the data and visualizations from anywhere with an internet connection, and eliminates the need of IT maintenance and resources.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+6 Explain the updates done in Power Bi Service(power BI 2.0) as compared to older version ?
+
+Power BI Service (Power BI 2.0) is the latest version of Microsoft's cloud-based business intelligence and data visualization platform. It includes several updates and new features as compared to the older version. Some of the key updates include:
+
+Improved collaboration and sharing: Power BI 2.0 includes new features that make it easier for users to collaborate and share their work with others. This includes the ability to share dashboards and reports with external users, and the ability to set permissions and access controls for specific users or groups.
+
+Enhanced data visualization: Power BI 2.0 includes new and improved visualization options, such as the ability to create and customize maps, create treemaps and sunbursts charts and the ability to create and customize tables and matrixes.
+
+Power BI Report Server: Power BI 2.0 includes the ability to deploy and host Power BI reports on-premises with Power BI Report Server, allowing organizations to keep their data and reports within their own network if required.
+
+Improved data modeling: Power BI 2.0 includes new data modeling features, such as the ability to create and customize calculated tables, and the ability to create and customize measures and calculated columns.
+
+Better data security and data governance: Power BI 2.0 includes new features that help organizations better secure their data and maintain data governance, such as the ability to encrypt data at rest and in transit, and the ability to set data lineage and data governance policies.
+
+Better performance and scalability: Power BI 2.0 includes new performance enhancements, such as the ability to handle larger data sets and more complex queries, as well as improved scalability, enabling more users to access and work with the data at the same time.
+
+New connectors: Power BI 2.0 includes new connectors for data sources like Dynamics 365, Salesforce, JSON, and more.
+
+Overall, Power BI 2.0 includes a number of new features and updates that improve the collaboration, visualization, modeling, security, performance, scalability, and data connectors capabilities of the platform, making it a more powerful and versatile tool for business intelligence and data visualization.
+
+
