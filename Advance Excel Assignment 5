@@ -1,0 +1,93 @@
+1. How many types of conditions are available in conditional formatting on Excel?
+
+Highlight Cells Rules: This allows you to format cells based on the values or formulas within them, such as formatting cells that are greater than a certain value, or formatting cells that contain a specific text.
+
+Top/Bottom Rules: This allows you to format cells based on their relative position within the data set, such as formatting the top 10% of values or the bottom 5% of values.
+
+Data Bars: This allows you to create a data bar within a cell to represent the value of the cell relative to the other cells in the range.
+
+Color Scales: This allows you to create a color scale within a cell to represent the value of the cell relative to the other cells in the range.
+
+Icon Sets: This allows you to create an icon within a cell to represent the value of the cell relative to the other cells in the range.
+
+New Rules: This allows you to create a custom rule based on a formula.
+
+Clear Rules: This allows you to remove any previously applied conditional formatting.
+
+Manage Rules: This allows you to edit, delete, move or copy the rules.
+----------------------------------------------------------------------------------------------------------------------------------------------
+2. How to insert border in Excel with Format Cells dialog?
+
+Select the cells for which you want to insert the border.
+
+Right-click on the selected cells and select "Format Cells" from the context menu, or alternatively you can go to the "Home" tab, in the "Font" group, select "Format Cells"
+
+In the Format Cells dialog box, select the "Border" tab.
+
+From the Border tab, you can select the style, color, and width of the border that you want to insert.
+
+You can also choose to apply the border to only specific sides of the cells by selecting the corresponding box, or you can choose to apply the border to all sides by selecting the "Outline" and "Inside" boxes.
+
+Click "OK" to apply the border to the selected cells.
+------------------------------------------------------------------------------------------------------------------------------------------------------
+3. How to Format Numbers as Currency in Excel?
+
+Using the Format Cells Dialog:
+
+Select the cells that you want to format.
+Right-click on the selected cells and select "Format Cells" from the context menu, or go to the "Home" tab, in the "Number" group, select "Format Cells"
+In the Format Cells dialog box, select "Currency" from the list of number formats.
+Choose the appropriate symbol and decimal places, then click "OK" to apply the formatting.
+
+Using the Shortcut Key:
+Select the cells that you want to format.
+Press "Ctrl" + "Shift" + "$" to quickly format the selected cells as currency.
+
+Using the Ribbon:
+Select the cells that you want to format.
+Go to the "Home" tab, in the "Number" group, select the "Accounting Number Format" which will automatically format the selected cells as currency with the symbol and decimal places.
+
+Using the Auto Format:
+Select the cells that you want to format.
+Go to the "Home" tab, in the "Styles" group, select "Format as Table" and then choose the style you prefer.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. What are the steps to format numbers in Excel with the Percent style?
+
+Select the cells that you want to format.
+
+Go to the "Home" tab, in the "Number" group, select "Format Cells" or simply press "Ctrl + 1" on your keyboard to open the Format Cells dialog box.
+
+In the Format Cells dialog box, select "Percentage" from the list of number formats.
+
+Choose the appropriate number of decimal places and click "OK" to apply the formatting
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+5. What is a shortcut to merge two or more cells in excel?
+
+The shortcut to merge two or more cells in Microsoft Excel is as follows:
+
+Select the cells that you want to merge.
+Press "Ctrl" + "Shift" + "+" (plus)
+This will merge the selected cells into a single cell, with the contents of the leftmost selected cell appearing in the new merged cell.
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+6. How do you use text commands in Excel?
+
+CONCATENATE: This command allows you to combine text from two or more cells into a single cell. You can use the CONCATENATE function by typing =CONCATENATE(cell1, cell2, etc.) in the formula bar.
+
+UPPER: This command allows you to convert all the text in a cell to uppercase. You can use the UPPER function by typing =UPPER(cell) in the formula bar.
+
+LOWER: This command allows you to convert all the text in a cell to lowercase. You can use the LOWER function by typing =LOWER(cell) in the formula bar.
+
+PROPER: This command allows you to convert the first letter of each word in a cell to uppercase. You can use the PROPER function by typing =PROPER(cell) in the formula bar.
+
+LEN: This command allows you to count the number of characters in a cell. You can use the LEN function by typing =LEN(cell) in the formula bar.
+
+LEFT, RIGHT, MID: These commands allow you to extract a specific number of characters from the left, right or middle of a cell. You can use these functions by typing =LEFT(cell, number of characters), =RIGHT(cell, number of characters) or =MID(cell, start position, number of characters) in the formula bar.
+
+TRIM: This command allows you to remove any extra spaces from the beginning or end of a cell. You can use the TRIM function by typing =TRIM(cell) in the formula bar.
+
+SUBSTITUTE: This command allows you to replace specific text within a cell with new text. You can use the SUBSTITUTE function by typing =SUBSTITUTE(cell, old text, new text) in the formula bar.
