@@ -1,0 +1,85 @@
+1. Write a Python Program to Find LCM?
+
+def find_lcm(x, y):
+  # choose the greater number
+  if x > y:
+    greater = x
+  else:
+    greater = y
+
+  while(True):
+    if((greater % x == 0) and (greater % y == 0)):
+      lcm = greater
+      break
+    greater += 1
+
+  return lcm
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print("The LCM of", num1,"and", num2,"is", find_lcm(num1, num2))
+---------------------------------------------------------------------------------------------------------------------------------------
+
+2. Write a Python Program to Find HCF?
+
+def find_hcf(x, y):
+    # choose the smaller number
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1, smaller+1):
+        if((x % i == 0) and (y % i == 0)):
+            hcf = i
+    return hcf
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print("The HCF of", num1,"and", num2,"is", find_hcf(num1, num2))
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+3. Write a Python Program to Convert Decimal to Binary, Octal and Hexadecimal?
+
+decimal = int(input("Enter a decimal number: "))
+
+# conversion to binary
+binary = bin(decimal)
+print("Binary representation of", decimal, "is", binary)
+
+# conversion to octal
+octal = oct(decimal)
+print("Octal representation of", decimal, "is", octal)
+
+# conversion to hexadecimal
+hexadecimal = hex(decimal)
+print("Hexadecimal representation of", decimal, "is", hexadecimal)
+--------------------------------------------------------------------------------------------------------------------------
+ 4. Write a Python Program To Find ASCII value of a character?
+ 
+char = input("Enter a character: ")
+print("The ASCII value of", char, "is", ord(char))
+-------------------------------------------------------------
+5.  Write a Python Program to Make a Simple Calculator with 4 basic mathematical operations?
+
+
+a = int(input("enter a number"))
+b = int(input("enter the next number"))
+c = int(input("select the operation: 1 to add, 2 for substract, 3 for multiply, 4 for divide"))
+
+if c==1:
+    print(a+b)
+elif c==2:
+    print(a-b)
+elif c==3:
+    print(a*b)
+elif c==4:
+    print(a/b)
+else:
+    print("Invalid operation selected")
+
+
+
+
+
