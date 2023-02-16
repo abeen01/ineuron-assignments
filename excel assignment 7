@@ -1,0 +1,102 @@
+1 Using Insert Function, give examples of any function available in the
+different dropdowns present in the function library. For example
+AutoSum, Recently Used, Text, Date & Time, etc.
+
+Here are some examples of functions available in different dropdowns of the Insert Function Library in Excel:
+
+AutoSum:
+SUM: Adds a list of numbers.
+AVERAGE: Calculates the average of a list of numbers.
+COUNT: Counts the number of cells that contain numerical values.
+MAX: Returns the largest value in a list of numbers.
+MIN: Returns the smallest value in a list of numbers.
+Recently Used:
+VLOOKUP: Searches for a value in the first column of a table and returns a value in the same row from a specified column of the table.
+IF: Returns one value if a condition is true and another value if it's false.
+CONCATENATE: Joins two or more text strings into one string.
+LEFT: Returns a specified number of characters from the beginning of a text string.
+RIGHT: Returns a specified number of characters from the end of a text string.
+Text:
+CONCAT: Joins two or more text strings into one string.
+TEXT: Converts a value to text in a specific number format.
+UPPER: Converts all letters in a text string to uppercase.
+LOWER: Converts all letters in a text string to lowercase.
+PROPER: Capitalizes the first letter of each word in a text string.
+Date & Time:
+DATE: Returns the serial number of a date based on the year, month, and day arguments.
+YEAR: Returns the year of a date value.
+MONTH: Returns the month of a date value.
+DAY: Returns the day of a date value.
+NOW: Returns the current date and time.
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+2 What are the different ways you can select columns and rows?
+In Excel, there are several ways to select columns and rows:
+
+Clicking the row or column header: To select a row or column, click on the corresponding row or column header. The row header is the number on the left side of the worksheet, and the column header is the letter at the top of the worksheet.
+
+Using the Shift key: To select multiple contiguous rows or columns, click on the header of the first row or column, hold down the Shift key, and then click on the header of the last row or column in the range. This will select all the rows or columns between the two headers.
+
+Using the Ctrl key: To select multiple non-contiguous rows or columns, click on the header of the first row or column, hold down the Ctrl key, and then click on the header of each additional row or column you want to select.
+
+Using the Name box: The Name box is located to the left of the formula bar and displays the name of the selected cell or range. To select a column, click on the Name box, type the letter of the column you want to select (e.g. "C" for column C), and then press Enter. To select a row, type the row number (e.g. "3" for row 3) in the Name box and press Enter.
+
+Using the mouse: To select a column, position the mouse pointer on the column header until it turns into a black arrow pointing down, and then click the left mouse button. To select a row, position the mouse pointer on the row header until it turns into a black arrow pointing to the right, and then click the left mouse button.
+
+Using the Select All button: To select the entire worksheet, click on the Select All button in the upper-left corner of the worksheet (above the row headers and to the left of the column headers).
+--------------------------------------------------------------------------------------------------------------------------------
+3 What is AutoFit and why do we use it?
+
+In Excel, AutoFit is a feature that automatically resizes the width of a column or the height of a row to fit the contents of the cells within it. This can be done for a single column or row, or for multiple columns or rows at once.
+
+AutoFit is used to make the data in a worksheet more readable and aesthetically pleasing. By using AutoFit, you can ensure that the data in your worksheet is not cut off or hidden, and that all of the content is visible to the reader. This is particularly useful when you are working with large amounts of data, where it is important to present the data in a clear and concise manner.
+
+To use AutoFit, simply select the column(s) or row(s) you want to resize, and then either right-click on the selection and choose "AutoFit Column Width" or "AutoFit Row Height" from the context menu, or use the "Format" menu in the ribbon and choose "AutoFit Column Width" or "AutoFit Row Height" from there. Excel will then adjust the column or row width or height to fit the largest piece of content in that column or row.
+--------------------------------------------------------------------------------------------------------------------------------------
+4. How can you insert new rows and columns into the existing table?
+
+Select the row or column where you want to insert the new row or column. You can select the entire row or column by clicking on the row or column header (the numbered or lettered cell to the left or top of the row or column), or you can select individual cells in the row or column by clicking and dragging over them.
+
+Right-click on the selected row or column, and choose "Insert" from the context menu. This will insert a new row above the selected row or a new column to the left of the selected column.
+
+If you want to insert multiple rows or columns at once, select the same number of existing rows or columns as the number of new rows or columns you want to insert. Then, right-click on the selected rows or columns, and choose "Insert" from the context menu. This will insert new rows above the selected rows or new columns to the left of the selected columns.
+
+Another way to insert rows or columns is to use the "Insert" command in the ribbon. First, select the row or column where you want to insert the new row or column. Then, go to the "Home" tab in the ribbon, click on the "Insert" dropdown, and choose "Insert Sheet Rows" or "Insert Sheet Columns" from the menu.
+
+Finally, you can also use keyboard shortcuts to insert new rows or columns. To insert a row, select a row and then press "Ctrl" + "+" (plus sign). To insert a column, select a column and then press "Ctrl" + "Shift" + "+" (plus sign).
+
+
+
+-------------------------------------------------------------------------------------------------------
+5. How do you hide and unhide columns in excel?
+
+To hide columns in Excel, follow these steps:
+
+Select the column(s) that you want to hide. You can do this by clicking on the column header(s) of the column(s) you want to hide.
+
+Right-click on the selected column(s), and then click on "Hide" in the context menu. This will hide the selected column(s) from view.
+
+Alternatively, you can also use the "Format" command in the ribbon to hide columns. To do this, follow these steps:
+
+Select the column(s) that you want to hide.
+
+Go to the "Home" tab in the ribbon, and click on the "Format" dropdown.
+
+Click on "Hide & Unhide", and then select "Hide Columns" from the dropdown menu.
+
+To unhide columns in Excel, follow these steps:
+
+Select the columns on either side of the hidden columns. For example, if you have hidden column C, you should select columns B and D.
+
+Right-click on the selected columns, and then click on "Unhide" in the context menu. This will unhide the hidden column(s) between the selected columns.
+
+Alternatively, you can also use the "Format" command in the ribbon to unhide columns. To do this, follow these steps:
+
+Select the columns on either side of the hidden columns.
+
+Go to the "Home" tab in the ribbon, and click on the "Format" dropdown.
+
+Click on "Hide & Unhide", and then select "Unhide Columns" from the dropdown menu.
+
+If the column(s) you want to unhide are not visible between the selected columns, you can also manually unhide them by selecting the columns on either side, and then dragging the column divider to the right or left to reveal the hidden column(s).
+-----------------------------------------------------------------------------------------------------------------------------
